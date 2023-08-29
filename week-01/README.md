@@ -3,5 +3,3 @@
 
 ### Tampilan Screenshoot
 ![Screenshot hello_world](docs/hello_world.png)
-
-![Screenshot run hello_world](docs/run-hello_world.png)
