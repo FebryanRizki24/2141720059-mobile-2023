@@ -125,4 +125,4 @@ Buatlah slide yang berisi penjelasan dan contoh eksekusi kode tentang perbedaan 
 
 Anggota Kelompok : 
 ![Screenshot Anggota Kelompok](docs/anggotaKelompok.png)
-https://docs.google.com/presentation/d/1oT5K4ch9DpX5ZJk8b1gcoet2ImcXjlNnlQtmsWTuLCk/edit#slide=id.g24237765a04_0_9
+link : https://docs.google.com/presentation/d/1oT5K4ch9DpX5ZJk8b1gcoet2ImcXjlNnlQtmsWTuLCk/edit#slide=id.p
