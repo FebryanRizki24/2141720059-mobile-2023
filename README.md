@@ -9,7 +9,7 @@
 | :----: | :--: | :--: |
 | Week 1 | Hello World |https://github.com/FebryanRizki24/2141720059-mobile-2023/tree/main/week-01
 | Week 2 | Pengantar Dart | https://github.com/FebryanRizki24/2141720059-mobile-2023/tree/main/week-02
-| Week 3 |
+| Week 3 | Pengantar Dart 3 | https://github.com/FebryanRizki24/2141720059-mobile-2023/tree/main/week-03 
 | Week 4 |
 | Week 5 |
 | Week 6 |
