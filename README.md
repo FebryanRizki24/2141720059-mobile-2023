@@ -11,7 +11,7 @@
 | Week 2 | Pengantar Dart | https://github.com/FebryanRizki24/2141720059-mobile-2023/tree/main/week-02
 | Week 3 | Percabangan dan Perulangan | https://github.com/FebryanRizki24/2141720059-mobile-2023/tree/main/week-03 
 | Week 4 | Collection, Records, dan Functions | https://github.com/FebryanRizki24/2141720059-mobile-2023/tree/main/week-04
-| Week 5 |
+| Week 5 | Instalasi flutter dan Aplikasi pertama | https://github.com/FebryanRizki24/2141720059-mobile-2023/tree/main/week-05
 | Week 6 |
 | Week 7 |
 | Week 8 |
