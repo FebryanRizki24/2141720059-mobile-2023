@@ -397,6 +397,9 @@ berisi kode untuk menampilkan sebuah alert
 contoh output
 ![gif](docs/soal2.gif)
 
+contoh output di hp
+![ss](docs/soal2.jpeg)
+
 ### 3. Selesaikan Codelabs: Your first Flutter app, lalu buatlah laporan praktikumnya dan push ke repository GitHub Anda!
 
 #### Kode
@@ -410,3 +413,5 @@ contoh output
 ![ss](docs/T3L7.png)  
 #### hasil run
 ![gif](docs/soal3.gif)
+#### hasil run di hp sendiri
+![mp4](docs/soal3hp.gif)
