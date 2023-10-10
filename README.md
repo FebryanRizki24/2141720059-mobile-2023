@@ -13,7 +13,7 @@
 | Week 4 | Collection, Records, dan Functions | https://github.com/FebryanRizki24/2141720059-mobile-2023/tree/main/week-04
 | Week 5 | Instalasi flutter dan Aplikasi pertama | https://github.com/FebryanRizki24/2141720059-mobile-2023/tree/main/week-05
 | Week 6 |
-| Week 7 |
+| Week 7 | Layouting | https://github.com/FebryanRizki24/2141720059-mobile-2023/tree/main/week-07
 | Week 8 |
 | Week 9 |
 | Week 10 | 
