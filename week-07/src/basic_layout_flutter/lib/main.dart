@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
-        // Row AND Column Class
+// Row AND Column Class
 // class MyWidget extends StatelessWidget {
 //   @override
 //   Widget build(BuildContext context) {
@@ -51,7 +51,7 @@ class MyApp extends StatelessWidget {
 //   }
 // }
 
-        // Main Axis Size 
+// Main Axis Size
 // class MyWidget extends StatelessWidget {
 //   @override
 //   Widget build(BuildContext context) {
@@ -80,7 +80,7 @@ class MyApp extends StatelessWidget {
 //   }
 // }
 
-        //MainAxisAlignment
+//MainAxisAlignment
 // class MyWidget extends StatelessWidget {
 //   @override
 //   Widget build(BuildContext context) {
@@ -109,7 +109,7 @@ class MyApp extends StatelessWidget {
 //   }
 // }
 
-        //CrossAxisAlignment
+//CrossAxisAlignment
 // class MyWidget extends StatelessWidget {
 //   @override
 //   Widget build(BuildContext context) {
@@ -153,7 +153,7 @@ class MyApp extends StatelessWidget {
 //   }
 // }
 
-        //Flexible widget
+//Flexible widget
 // class MyWidget extends StatelessWidget {
 //   @override
 //   Widget build(BuildContext context) {
@@ -189,35 +189,35 @@ class MyApp extends StatelessWidget {
 //   }
 // }
 
-        //Expanded Widget
-class MyWidget extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Row(
-      children: [
-        BlueBox(),
-        Expanded(child: BlueBox()),
-        BlueBox(),
-      ],
-    );
-  }
-}
+//Expanded Widget
+// class MyWidget extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return Row(
+//       children: [
+//         BlueBox(),
+//         Expanded(child: BlueBox()),
+//         BlueBox(),
+//       ],
+//     );
+//   }
+// }
 
-class BlueBox extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      width: 50,
-      height: 50,
-      decoration: BoxDecoration(
-        color: Colors.blue,
-        border: Border.all(),
-      ),
-    );
-  }
-}
+// class BlueBox extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return Container(
+//       width: 50,
+//       height: 50,
+//       decoration: BoxDecoration(
+//         color: Colors.blue,
+//         border: Border.all(),
+//       ),
+//     );
+//   }
+// }
 
-        //SizedBox Widget
+//SizedBox Widget
 // class MyWidget extends StatelessWidget {
 //   @override
 //   Widget build(BuildContext context) {
@@ -250,7 +250,7 @@ class BlueBox extends StatelessWidget {
 //   }
 // }
 
-        //spacer widget
+//spacer widget
 // class MyWidget extends StatelessWidget {
 //   @override
 //   Widget build(BuildContext context) {
@@ -280,7 +280,7 @@ class BlueBox extends StatelessWidget {
 //   }
 // }
 
-        //Text widget
+//Text widget
 // class MyWidget extends StatelessWidget {
 //   @override
 //   Widget build(BuildContext context) {
@@ -317,7 +317,7 @@ class BlueBox extends StatelessWidget {
 //   }
 // }
 
-        //Icon widget
+//Icon widget
 // class MyWidget extends StatelessWidget {
 //   @override
 //   Widget build(BuildContext context) {
@@ -345,7 +345,7 @@ class BlueBox extends StatelessWidget {
 //   }
 // }
 
-        //Icon WIdget
+//Icon WIdget
 // class MyWidget extends StatelessWidget {
 //   @override
 //   Widget build(BuildContext context) {
@@ -357,3 +357,76 @@ class BlueBox extends StatelessWidget {
 //     );
 //   }
 // }
+
+//part 1
+// class MyWidget extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return Row(
+//       children: [
+//         Padding(
+//           padding: const EdgeInsets.all(8.0),
+//           child: Icon(Icons.account_circle, size: 50),
+//         ),
+//         Column(
+//           mainAxisSize: MainAxisSize.min,
+//           crossAxisAlignment: CrossAxisAlignment.start,
+//           children: [
+//             Text(
+//               'Flutter McFlutter',
+//               style: Theme.of(context).textTheme.headlineSmall,
+//             ),
+//             const Text('Experienced App Developer'),
+//           ],
+//         ),
+//       ],
+//     );
+//   }
+// }
+
+//part 2
+class MyWidget extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        Row(
+          children: [
+            const Padding(
+              padding: EdgeInsets.all(8.0),
+              child: Icon(Icons.account_circle, size: 50),
+            ),
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Text(
+                  'Flutter McFlutter',
+                  style: Theme.of(context).textTheme.headlineSmall,
+                ),
+                const Text('Experienced App Developer'),
+              ],
+            ),
+          ],
+        ),
+        const SizedBox(height: 8),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: const [Text("123 Main Street"), Text("(415) 555-0198")],
+        ),
+        const SizedBox(height: 16),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: const [
+            Icon(Icons.accessibility),
+            Icon(Icons.timer),
+            Icon(Icons.phone_android),
+            Icon(Icons.phone_iphone)
+          ],
+        ),
+      ],
+    );
+  }
+}

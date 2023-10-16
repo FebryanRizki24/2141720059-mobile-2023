@@ -76,3 +76,4 @@ Jawab
 | Text Widget | ![ss](docs/T2_9_center.png) | ![ss](docs/T2_9_baseline.png) | mengubah crossAxisAlignment.center ke crossAxisAlignment.baseline merubah text yang awalnya sejajar di tengah menjadi sejajar dari bawah
 | Icon Widget | ![ss](docs/T2_10_ori.png) | ![ss](docs/T2_10_addIcon.png) | menambahkan satu icons.widget dengan warna amber
 | Image Widget | ![ss](docs/T2_11_ori.png) | ![ss](docs/T2_11_img1.png) ![ss](docs/T2_11_img2.png) ![ss](docs/T2_11_img3.png) | menambahkan link pada image.network dengan link dan mengubah pic1 dengan pic2 dan juga pic3
+| putting it all together | part 1  ![ss](docs/T2_12_part1.png) | part 2  ![ss](docs/T2_12_part2.png)  part 3  ![ss](docs/T2_12_part3.png) | menambahkan semua yang telah dipelajari menjadi satu
