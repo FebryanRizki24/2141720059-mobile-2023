@@ -5,6 +5,6 @@
 ~~
 ## HASIL AKHIR
 #### Video Demo
-![ss](docs/hasilAkhir.gif)
+<img src='docs/hasilAkhir.gif' width = 50%></img>
 
 setelah menyelesaikan tugas praktikum 2, didapatkan tampilan tersebut dengan beberapa tambahan list yang saya berikan. 
