@@ -15,5 +15,5 @@
 | Week 6 |
 | Week 7 | Layouting | https://github.com/FebryanRizki24/2141720059-mobile-2023/tree/main/week-07
 | Week 8 | Navigasi dan Rute | https://github.com/FebryanRizki24/2141720059-mobile-2023/tree/main/week-08
-| Week 9 |
+| Week 9 | Manajemen Plugin | https://github.com/FebryanRizki24/2141720059-mobile-2023/tree/main/week-09 |
 | Week 10 | 
