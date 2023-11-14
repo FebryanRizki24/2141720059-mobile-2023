@@ -113,3 +113,10 @@ await Future.delayed(const Duration(seconds: 3));: Ini adalah operasi penundaan 
 Future count digunakan untuk menjumlahkan returnOne yang bernilai 1 lalu returnTwo yang bernilai 2 dan returnThree yang bernilai 3 disertai delay 3 detik dari masing2 Future
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 4".  
 <img src="docs/soal4.gif" width=50%></img>
+
+# Praktikum 3
+### Soal 5
+- Jelaskan maksud kode langkah 2 tersebut!
+maksud kode langkah 2 adalah getNumber memanggil calculate dimana calculate mempunyai delay 5s dan nilai 42 dan di panggil lewat completer.future yang ada di getNumber.
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 5".  
+<img src="docs/soal5.gif" width=50%></img>
