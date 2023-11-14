@@ -120,3 +120,10 @@ Future count digunakan untuk menjumlahkan returnOne yang bernilai 1 lalu returnT
 maksud kode langkah 2 adalah getNumber memanggil calculate dimana calculate mempunyai delay 5s dan nilai 42 dan di panggil lewat completer.future yang ada di getNumber.
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 5".  
 <img src="docs/soal5.gif" width=50%></img>
+
+### Soal 6
+- Jelaskan maksud perbedaan kode langkah 2 dengan langkah 5-6 tersebut!  
+Versi dengan try-catch memberikan perlindungan terhadap kesalahan yang mungkin terjadi selama penundaan.  
+Versi tanpa try-catch lebih sederhana dan tidak menangani kesalahan secara eksplisit.
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 6".  
+<img src="docs/soal6.gif" width=50%></img>
