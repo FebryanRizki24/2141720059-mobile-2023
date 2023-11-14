@@ -105,3 +105,11 @@ class _FuturePageState extends State<FuturePage> {
   }
 }
 ```
+
+# Praktikum 2
+### Soal 4
+- Jelaskan maksud kode langkah 1 dan 2 tersebut!  
+await Future.delayed(const Duration(seconds: 3));: Ini adalah operasi penundaan selama 3 detik menggunakan Future.delayed. dan digunakan selama 3 kali hasilnya menjadi delay 9 detik. dan mereturnkan nilai masing2 
+Future count digunakan untuk menjumlahkan returnOne yang bernilai 1 lalu returnTwo yang bernilai 2 dan returnThree yang bernilai 3 disertai delay 3 detik dari masing2 Future
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 4".  
+<img src="docs/soal4.gif" width=50%></img>
