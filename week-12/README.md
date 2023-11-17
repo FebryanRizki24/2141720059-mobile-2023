@@ -126,4 +126,9 @@ maksud kode langkah 2 adalah getNumber memanggil calculate dimana calculate memp
 Versi dengan try-catch memberikan perlindungan terhadap kesalahan yang mungkin terjadi selama penundaan.  
 Versi tanpa try-catch lebih sederhana dan tidak menangani kesalahan secara eksplisit.
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 6".  
-<img src="docs/soal6.gif" width=50%></img>
+<img src="docs/soal6.gif" width=50%></img>  
+
+# Praktikum 4
+### Soal 7
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 7"  
+<img src="docs/soal7.gif" width=50%></img>  
