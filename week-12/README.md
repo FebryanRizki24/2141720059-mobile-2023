@@ -162,3 +162,13 @@ appBar: AppBar(title: const Text('Current Location Febryan')),
 - Apakah Anda mendapatkan koordinat GPS ketika run di browser Mengapa demikian?  
 <img src="docs/soal12-2.jpg" width=50%></img>  
 jawabannya bisa, karena Jika menjalankan di browser, koordinat GPS masih dapat muncul atau diperoleh. Ini disebabkan oleh Flutter web yang menggunakan API Geolocation langsung dari browser. Pada Flutter web, izin untuk mengakses lokasi dikelola oleh browser, bukan oleh sistem operasi (seperti Android pada perangkat seluler). Oleh karena itu, meskipun tidak menambahkan izin secara langsung ke AndroidManifest, koordinat GPS masih dapat diperoleh di browser, tetapi tetap memerlukan izin dari pengguna.  
+
+## Praktikum 7
+### Soal 13
+- Apakah ada perbedaan UI dengan praktikum sebelumnya? Mengapa demikian?  
+- Dari kedua praktikum tersebut tidak memiliki perbedaan UI. Keduanya tetap menampilkan koordinat Geolokasi dengan layout yang sama. Hal ini terjadi karena keduanya masih mengambil lokasi secara sinkron dalam blok initState. Pada tampilan UI keduanya memiliki delay yang sama, yaitu 3 detik. Selain itu, UI dapat terlihat sama karena FutureBuilder secara otomatis mengelola pembaruan UI, bahkan tanpa pemanggilan setState langsung.  
+
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 13".  
+<img src="docs/soal13.gif" width=50%></img>  
+
+- Seperti yang Anda lihat, menggunakan FutureBuilder lebih efisien, clean, dan reactive dengan Future bersama UI.
