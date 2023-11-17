@@ -132,3 +132,8 @@ Versi tanpa try-catch lebih sederhana dan tidak menangani kesalahan secara ekspl
 ### Soal 7
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 7"  
 <img src="docs/soal7.gif" width=50%></img>  
+
+### Soal 8
+- Jelaskan maksud perbedaan kode langkah 1 dan 4!  
+
+jawab -> Perbedaan utama antara keduanya terletak pada cara mengelola dan menunggu kelompok Future. Langkah 1 menggunakan objek FutureGroup, sedangkan Langkah 4 langsung menggunakan Future.wait untuk menangani beberapa Future secara bersamaan. Langkah 4 dapat dianggap lebih langsung dan mudah dipahami, sementara Langkah 1 menunjukkan pendekatan yang lebih modular dengan penggunaan objek FutureGroup.
