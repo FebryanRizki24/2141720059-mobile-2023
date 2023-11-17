@@ -178,3 +178,14 @@ jawabannya bisa, karena Jika menjalankan di browser, koordinat GPS masih dapat m
 sama saja tidak ada bedanya, karena cuma nambahin eror dan di kode ini tidak terdapat eror
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 14".  
 <img src="docs/soal14.gif" width=50%></img>  
+
+## Praktikum 8
+### Soal 15
+- Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.  
+```dart
+title: const Text("Navigation First Screen Febryan"),
+```
+- Silakan ganti dengan warna tema favorit Anda.
+```dart 
+Color color = Color(0xff739072);
+```
