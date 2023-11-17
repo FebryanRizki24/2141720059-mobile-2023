@@ -155,3 +155,10 @@ Perbedaan utama terletak pada pendekatan penanganan kesalahan. Kode pertama meng
 ```dart
 appBar: AppBar(title: const Text('Current Location Febryan')),
 ```
+
+### Soal 12
+- Jika Anda tidak melihat animasi loading tampil, kemungkinan itu berjalan sangat cepat. Tambahkan delay pada method getPosition() dengan kode await Future.delayed(const Duration(seconds: 3));  
+<img src="docs/soal12-1.gif" width=50%></img>  
+- Apakah Anda mendapatkan koordinat GPS ketika run di browser Mengapa demikian?  
+<img src="docs/soal12-2.jpg" width=50%></img>  
+jawabannya bisa, karena Jika menjalankan di browser, koordinat GPS masih dapat muncul atau diperoleh. Ini disebabkan oleh Flutter web yang menggunakan API Geolocation langsung dari browser. Pada Flutter web, izin untuk mengakses lokasi dikelola oleh browser, bukan oleh sistem operasi (seperti Android pada perangkat seluler). Oleh karena itu, meskipun tidak menambahkan izin secara langsung ke AndroidManifest, koordinat GPS masih dapat diperoleh di browser, tetapi tetap memerlukan izin dari pengguna.  
