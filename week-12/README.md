@@ -3,6 +3,36 @@
 # Nim : 2141720059
 # WEEK 12
 ~~
+
+# Daftar Isi
+| praktikum | soal |
+| :-------: | :--: |
+| Praktikum 1: Mengunduh Data dari Web Service (API) | [Soal 1](#soal-1) |
+| Praktikum 1: Mengunduh Data dari Web Service (API) | [Soal 2](#soal-2) |
+| Praktikum 1: Mengunduh Data dari Web Service (API) | [Soal 3](#soal-3) |
+--
+| Praktikum 2: Menggunakan await/async untuk menghindari callbacks | [Soal 4](#soal-4) |
+--
+| Praktikum 3: Menggunakan Completer di Future | [Soal 5](#soal-5) |
+| Praktikum 3: Menggunakan Completer di Future | [Soal 6](#soal-6) |
+--
+| Praktikum 4: Memanggil Future secara paralel | [Soal 7](#soal-7) |
+| Praktikum 4: Memanggil Future secara paralel | [Soal 8](#soal-8) |
+--
+| Praktikum 5: Menangani Respon Error pada Async Code | [Soal 9](#soal-9) |
+| Praktikum 5: Menangani Respon Error pada Async Code | [Soal 10](#soal-10) |
+--
+| Praktikum 6: Menggunakan Future dengan StatefulWidget | [Soal 11](#soal-11) |
+| Praktikum 6: Menggunakan Future dengan StatefulWidget | [Soal 12](#soal-12) |
+--
+| Praktikum 7: Manajemen Future dengan FutureBuilder | [Soal 13](#soal-13) |
+| Praktikum 7: Manajemen Future dengan FutureBuilder | [Soal 14](#soal-14) |
+--
+| Praktikum 8: Navigation route dengan Future Function | [Soal 15](#soal-15) |
+| Praktikum 8: Navigation route dengan Future Function | [Soal 16](#soal-16) |
+--
+| Praktikum 9: Memanfaatkan async/await dengan Widget Dialog | [Soal 17](#soal-17) |
+
 # Praktikum 1
 ### Soal 1
 Tambahkan nama panggilan Anda pada title app sebagai identitas hasil pekerjaan Anda.
