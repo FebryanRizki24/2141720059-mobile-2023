@@ -216,3 +216,31 @@ Ketika button di klik warnanya akan mengalami perubahan sesuai dengan konfiguras
 ```
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 16".  
 <img src="docs/soal16.gif" width=50%></img>  
+
+## Praktikum 9
+### Soal 17
+- Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian ?  
+ketika klik changecolor muncul alert/dialog untuk memilih warna untuk mengubah warna background. Proses ini terjadi karena nilai color diperbarui dengan nilai yang dipilih dalam fungsi _showColorDialog, dan setelah itu widget diperbarui menggunakan setState. Hal ini menyebabkan widget dibangun kembali dan menunjukkan perubahan warna di layar.  
+- Gantilah 3 warna pada langkah 3 dengan warna favorit Anda!
+```dart
+            TextButton(
+                child: const Text('Purple'),
+                onPressed: () {
+                  color = Colors.purple;
+                  Navigator.pop(context, color);
+                }),
+            TextButton(
+                child: const Text('Black'),
+                onPressed: () {
+                  color = Colors.black;
+                  Navigator.pop(context, color);
+                }),
+            TextButton(
+                child: const Text('Red'),
+                onPressed: () {
+                  color = Colors.red;
+                  Navigator.pop(context, color);
+                }),
+```
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 17".  
+<img src="docs/soal17.gif" width=50%></img>  
