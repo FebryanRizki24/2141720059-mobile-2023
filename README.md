@@ -18,3 +18,4 @@
 | Week 9 | Manajemen Plugin | https://github.com/FebryanRizki24/2141720059-mobile-2023/tree/main/week-09 |
 | Week 10 | - | -
 | Week 11 | State Manajemen | https://github.com/FebryanRizki24/2141720059-mobile-2023/tree/main/week-11
+| Week 12 | Pemrograman Async | https://github.com/FebryanRizki24/2141720059-mobile-2023/tree/main/week-12 |
