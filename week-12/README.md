@@ -148,3 +148,10 @@ jawab -> Perbedaan utama antara keduanya terletak pada cara mengelola dan menung
 <img src="docs/soal10.gif" width=50%></img>  
 perbedaan -> 
 Perbedaan utama terletak pada pendekatan penanganan kesalahan. Kode pertama menggunakan metode .then().catchError().whenComplete() untuk menangani hasil atau kesalahan yang mungkin terjadi dari returnError(), sedangkan kode kedua menggunakan blok try-catch-finally di dalam fungsi handleError() untuk secara langsung menangkap dan menangani error yang muncul dari pemanggilan returnError(), dengan bagian finally digunakan untuk mengeksekusi kode akhir, independen dari apakah ada error atau tidak
+
+# Praktikum 6
+### Soal 11
+- Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.  
+```dart
+appBar: AppBar(title: const Text('Current Location Febryan')),
+```
