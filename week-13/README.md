@@ -45,3 +45,8 @@ jawab -> yield* digunakan untuk mengirimkan nilai dari suatu Stream atau Iterabl
 - Apa maksud isi perintah kode tersebut?  
 jawab -> Kode tersebut membuat sebuah Stream yang secara periodik mengeluarkan nilai dari sebuah array warna pada interval waktu satu detik, dengan setiap nilai dari array warna dipilih secara bergantian sesuai dengan waktu dalam detik sejak dimulainya Stream.
 - Lakukan commit hasil jawaban Soal 3 dengan pesan "W13: Jawaban Soal 3"  
+
+### Soal 4
+- Capture hasil praktikum Anda berupa GIF dan lampirkan di README.  
+<img src="docs/soal4.gif" width=50% ></img>
+- Lakukan commit hasil jawaban Soal 4 dengan pesan "W13: Jawaban Soal 4"  
