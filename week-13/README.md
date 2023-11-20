@@ -50,3 +50,9 @@ jawab -> Kode tersebut membuat sebuah Stream yang secara periodik mengeluarkan n
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README.  
 <img src="docs/soal4.gif" width=50% ></img>
 - Lakukan commit hasil jawaban Soal 4 dengan pesan "W13: Jawaban Soal 4"  
+
+### Soal 5
+- Jelaskan perbedaan menggunakan listen dan await for (langkah 9) !  
+jawab -> Dalam konteks kode yang diberikan, menggunakan listen berarti ketika Stream mengeluarkan nilai baru, fungsi setState akan dipanggil untuk memperbarui bgColor, namun proses eksekusi selanjutnya tidak akan menunggu sampai nilai tersebut diterima. Sebaliknya, dengan await for, proses akan menunggu sampai nilai dari Stream diterima sebelum melanjutkan ke langkah selanjutnya.  
+`jadi perbedaannya adalah await for menunggu nilai sampai selesai sebelum lanjut, sedangkan listen tidak perlu menunggu.`
+- Lakukan commit hasil jawaban Soal 5 dengan pesan "W13: Jawaban Soal 5"  
