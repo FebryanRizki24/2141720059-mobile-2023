@@ -38,3 +38,10 @@ class ColorStream {
 }
 ```
 - Lakukan commit hasil jawaban Soal 2 dengan pesan "W13: Jawaban Soal 2"
+
+### Soal 3
+- Jelaskan fungsi keyword yield* pada kode tersebut!  
+jawab -> yield* digunakan untuk mengirimkan nilai dari suatu Stream atau Iterable ke Stream yang sedang dibuat. Dalam kasus ini, kita menggabungkan nilai dari Stream.periodic dengan mengembalikan nilai-nilai dari array colors pada interval waktu tertentu.
+- Apa maksud isi perintah kode tersebut?  
+jawab -> Kode tersebut membuat sebuah Stream yang secara periodik mengeluarkan nilai dari sebuah array warna pada interval waktu satu detik, dengan setiap nilai dari array warna dipilih secara bergantian sesuai dengan waktu dalam detik sejak dimulainya Stream.
+- Lakukan commit hasil jawaban Soal 3 dengan pesan "W13: Jawaban Soal 3"  
