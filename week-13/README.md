@@ -195,3 +195,10 @@ jawab -> Dalam konteks kode yang diberikan, menggunakan listen berarti ketika St
 - Capture hasil praktikum Anda berupa GIF dan lampirkan di README.  
 <img src="docs/soal9.gif" width=50% ></img>
 - Lalu lakukan commit dengan pesan "W13: Jawaban Soal 9".  
+
+
+## Praktikum 5: Multiple stream subscriptions
+### Soal 10
+- Jelaskan mengapa error itu bisa terjadi ?  
+  jawab : 
+  `StateError (Bad state: Stream has already been listened to.)` karena mencoba untuk mendengarkan (listen) stream yang sama lebih dari sekali secara bersamaan. stream seharusnya unik, jadi ketika dijalankan bersamaan akan terjadi konflik.
